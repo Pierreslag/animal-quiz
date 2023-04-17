@@ -1,4 +1,4 @@
-/* Body styling */
+/* Body */
 
 body {
 
@@ -9,8 +9,42 @@ body {
 
 }
 
+/* Heading */
+
 .heading {
 
     font-family: 'Playfair Display', serif;
+
+}
+
+/* Question Area */
+
+.question-area {
+
+    background-color: yellow;
+
+}
+
+/* Answer Text */
+
+.answer-text {
+
+    background-color: lightblue;
+
+}
+
+/* Answer Button */
+
+.answer-btn-box {
+
+    background-color: lightpink;
+
+}
+
+/* Score Area */
+
+.score-area {
+
+    background-color: lightgreen;
 
 }
