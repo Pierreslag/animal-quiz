@@ -76,6 +76,17 @@ const questions = [
     },
     
   ];
+
+  /**
+   * shuffle array
+  */
+
+  function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+  }
   
   let currentQuestion = 0;
   let score = 0;
@@ -105,6 +116,7 @@ const questions = [
     }
     currentQuestion++;
     if (currentQuestion < questions.length) {
+      shuffleArray(questions);
       showQuestion();
     } else {
       // end of quiz
