@@ -72,9 +72,17 @@ body {
 .answer-btn-box {
 
     background-color: lightpink;
+    display: flex;
     align-items: center;
     justify-content: center;
 
+}
+
+.answer-btn-box button {
+    background-color: lightgreen;
+    border: 1px solid #8B4513;
+    border-radius: 4px;
+    width: 100%;
 }
 
 
@@ -95,6 +103,9 @@ body {
       width: 90%;
       margin: 0 auto;
     }
+    .answer-btn-box {
+        flex-wrap: wrap;
+    }
     .answer-btn-box button {
       width: 100%;
       margin-bottom: 10px;
@@ -109,6 +120,9 @@ body {
     .game-area {
       width: 40%;
       margin: 0 auto;
+    }
+    .answer-btn-box {
+        flex-wrap: nowrap;
     }
     .answer-btn-box button {
       width: 30%;
