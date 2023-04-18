@@ -24,7 +24,7 @@ body {
 
 .game-area {
 
-    background-color: #FF8C00;
+    background-color: rgba(255, 140, 0, 0.8);
     display: flex;
     flex-direction: column;
     align-items: center;
