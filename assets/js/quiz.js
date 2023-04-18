@@ -119,6 +119,9 @@ const questions = [
       showQuestion();
     } else {
       // end of quiz
+      document.getElementById("final-score").textContent = score;
+      document.getElementById("end-message").style.display = "block";
+      document.getElementById("restart-btn").style.display = "block";
     }
   }
   
