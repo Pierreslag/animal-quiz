@@ -90,6 +90,7 @@ body {
 @media (max-width: 600px) {
     .game-area {
       width: 90%;
+      margin: 0 auto;
     }
     .answer-btn-box button {
       width: 100%;
