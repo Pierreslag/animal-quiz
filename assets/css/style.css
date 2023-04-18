@@ -19,7 +19,15 @@ body {
 }
 
 
-/* Question Area */
+/* Game Area Styling */
+
+.game-area {
+
+    background-color: #FF8C00;
+
+}
+
+/* Question Area Styling */
 
 .question-area {
 
@@ -28,7 +36,7 @@ body {
 }
 
 
-/* Answer Text */
+/* Answer Text Styling */
 
 .answer-text {
 
@@ -53,3 +61,30 @@ body {
     background-color: lightgreen;
 
 }
+
+/* For screens 600px or smaller */
+@media (max-width: 600px) {
+    .game-area {
+      width: 90%;
+    }
+    .answer-btn-box button {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+  
+  /* For screens larger than 600px */
+  @media (min-width: 601px) {
+    .game-area {
+      width: 40%;
+      margin: 0 auto;
+    }
+    .answer-btn-box button {
+      width: 30%;
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+    .answer-btn-box button:last-child {
+      margin-right: 0;
+    }
+  }
