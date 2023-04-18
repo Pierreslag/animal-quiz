@@ -116,7 +116,6 @@ const questions = [
     }
     currentQuestion++;
     if (currentQuestion < questions.length) {
-      shuffleArray(questions);
       showQuestion();
     } else {
       // end of quiz
