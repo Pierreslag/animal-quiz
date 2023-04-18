@@ -15,6 +15,7 @@ body {
 .heading {
 
     font-family: 'Playfair Display', serif;
+    font-size: 3rem;
 
 }
 
@@ -95,6 +96,9 @@ body {
     .answer-btn-box button {
       width: 100%;
       margin-bottom: 10px;
+    }
+    .heading {
+        font-size: 2rem;
     }
   }
   
