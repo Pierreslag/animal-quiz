@@ -91,6 +91,13 @@ body {
 
 }
 
+.restart-btn button {
+    background-color: lightgreen;
+    border: 1px solid #8B4513;
+    border-radius: 4px;
+    color: #4E4E4E;
+}
+
 /* For screens 600px or smaller */
 @media (max-width: 600px) {
     .game-area {

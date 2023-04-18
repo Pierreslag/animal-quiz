@@ -99,6 +99,8 @@ const questions = [
   const answerBtnB = document.getElementById("answer-btn-b");
   const answerBtnC = document.getElementById("answer-btn-c");
   const scoreText = document.getElementById("score");
+
+  shuffleArray(questions);
   
   function showQuestion() {
     const current = questions[currentQuestion];
@@ -107,6 +109,17 @@ const questions = [
     answerTextB.textContent = `B: ${current.options[1]}`;
     answerTextC.textContent = `C: ${current.options[2]}`;
   }
+
+  function restartQuiz() {
+    currentQuestion = 0;
+    score = 0;
+    showQuestion();
+    scoreText.textContent = score;
+  }
+
+  document.getElementById("restart-quiz-btn").addEventListener("click", () => {
+    document.location.reload();
+  });
   
   function checkAnswer(answer) {
     const current = questions[currentQuestion];
