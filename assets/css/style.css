@@ -24,6 +24,11 @@ body {
 .game-area {
 
     background-color: #FF8C00;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
 
 }
 
@@ -32,6 +37,9 @@ body {
 .question-area {
 
     background-color: yellow;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
 
 }
 
@@ -41,6 +49,17 @@ body {
 .answer-text {
 
     background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+
+}
+
+.answer-text p {
+
+    margin: 0.5rem 0;
 
 }
 
@@ -50,6 +69,8 @@ body {
 .answer-btn-box {
 
     background-color: lightpink;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -59,6 +80,9 @@ body {
 .score-area {
 
     background-color: lightgreen;
+    padding: 1rem;
+    margin-top: 2rem;
+    text-align: center;
 
 }
 
