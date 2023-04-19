@@ -36,7 +36,7 @@ const questions = [
     },
     {
       question: "What is the name of the animal that can hold its breath the longest?",
-      options: ["Dolphin", "Elephant", "Crocodile"],
+      options: ["Sperm whale", "Elephant", "Crocodile"],
       answer: "a"
     },
     {
@@ -110,13 +110,7 @@ const questions = [
     answerTextC.textContent = `C: ${current.options[2]}`;
   }
 
-  function restartQuiz() {
-    currentQuestion = 0;
-    score = 0;
-    showQuestion();
-    scoreText.textContent = score;
-  }
-
+  
   document.getElementById("restart-quiz-btn").addEventListener("click", () => {
     document.location.reload();
   });
@@ -141,5 +135,6 @@ const questions = [
   answerBtnA.addEventListener("click", () => checkAnswer("a"));
   answerBtnB.addEventListener("click", () => checkAnswer("b"));
   answerBtnC.addEventListener("click", () => checkAnswer("c"));
-  
+
+
   showQuestion();
