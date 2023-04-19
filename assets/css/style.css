@@ -33,10 +33,6 @@ body {
 }
 
 
-/* Container styling */
-
-
-
 /* Game Area Styling */
 
 .game-area {
@@ -107,6 +103,7 @@ body {
     text-align: center;
 
 }
+
 
 .restart-btn button {
     background-color: lightgreen;
