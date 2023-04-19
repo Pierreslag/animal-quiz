@@ -1,3 +1,5 @@
+// Questions
+
 const questions = [
     {
       question: "What is the scientific name for a lion?",
@@ -77,9 +79,7 @@ const questions = [
     
   ];
 
-  /**
-   * shuffle array
-  */
+// Shuffle Array
 
   function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
@@ -88,9 +88,13 @@ const questions = [
     }
   }
   
+// Tracker
+
   let currentQuestion = 0;
   let score = 0;
   
+// Ref to HTML
+
   const questionText = document.getElementById("question-text");
   const answerTextA = document.getElementById("answer-text-a");
   const answerTextB = document.getElementById("answer-text-b");
@@ -100,8 +104,13 @@ const questions = [
   const answerBtnC = document.getElementById("answer-btn-c");
   const scoreText = document.getElementById("score");
 
+// Shuffle
+
   shuffleArray(questions);
-  
+
+
+// Question Text Update
+
   function showQuestion() {
     const current = questions[currentQuestion];
     questionText.textContent = current.question;
@@ -110,11 +119,16 @@ const questions = [
     answerTextC.textContent = `C: ${current.options[2]}`;
   }
 
-  
+
+// Listener Restart BTN
+
   document.getElementById("restart-quiz-btn").addEventListener("click", () => {
     document.location.reload();
   });
-  
+
+
+// Checks Answer & Update Score
+
   function checkAnswer(answer) {
     const current = questions[currentQuestion];
     if (answer === current.answer) {
@@ -125,16 +139,20 @@ const questions = [
     if (currentQuestion < questions.length) {
       showQuestion();
     } else {
-      // end of quiz
       document.getElementById("final-score").textContent = score;
       document.getElementById("end-message").style.display = "block";
       document.getElementById("restart-btn").style.display = "block";
     }
   }
   
+
+// Answer BTN Listener
+
   answerBtnA.addEventListener("click", () => checkAnswer("a"));
   answerBtnB.addEventListener("click", () => checkAnswer("b"));
   answerBtnC.addEventListener("click", () => checkAnswer("c"));
 
+
+// First Q
 
   showQuestion();
