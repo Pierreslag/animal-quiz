@@ -23,6 +23,12 @@ body {
 
     font-family: 'Playfair Display', serif;
     font-size: 3rem;
+    background-color: rgba(255, 140, 0, 0.8);
+    display: inline-block;
+    flex-direction: row;
+    border: 2px solid #8B4513;
+    border-radius: 20px;
+    padding: 5px;
 
 }
 
