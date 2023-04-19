@@ -112,6 +112,7 @@ body {
     color: #2c2727;
 }
 
+
 /* For screens 600px or smaller */
 @media (max-width: 600px) {
     .game-area {
