@@ -113,11 +113,23 @@ body {
 }
 
 
+.end-message {
+
+    background-color: rgba(255, 140, 0, 0.8);  
+    border: 2px solid #8B4513;
+    border-radius: 15px;
+    max-width: 40%;
+    margin: 10px auto;
+    
+}
+
+
 /* For screens 600px or smaller */
 @media (max-width: 600px) {
     .game-area {
-        width: 90%;
+
         margin: 0 auto;
+        
     }
     .answer-btn-box {
         flex-wrap: wrap;
