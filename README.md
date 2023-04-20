@@ -40,6 +40,9 @@ Ive used the official validators:
 
 No errors were found in HTML & CSS.
 
+**LightHouse test**: <br>
+![lighthouse](/assets/images/lighthouseanimal.png)
+
 ## Deployment
 
 The Animal Quiz website deployed via [GitHub Pages](https://pages.github.com/).
