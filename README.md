@@ -42,6 +42,10 @@ Ive used the official validators:
 
 No errors were found in HTML, CSS or JS.
 
+### Browser Test
+- Chrome
+- Brave
+
 **LightHouse test**: <br>
 ![lighthouse](/assets/images/lighthouse2.png)
 
