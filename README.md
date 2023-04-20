@@ -38,7 +38,7 @@ Ive used the official validators:
 
 - [W3C validator](https://validator.w3.org/nu/#textarea) to test the HTML. <br>
 - [Jigsaw.w3](https://jigsaw.w3.org/css-validator/validator) to test the CSS. <br>
-- The Jshint validator was used to test the JavaScript.
+- [JsHint](https://jshint.com/) validator was used to test the JavaScript.
 
 No errors were found in HTML, CSS or JS.
 
