@@ -68,7 +68,7 @@ const questions = [
     },
     {
       question: "What is the name of the animal that can produce its own sunscreen?",
-      options: ["Hippopotamus", "Flamingo", "Alligator"],
+      options: ["Flamingo", "Hippopotamus", "Alligator"],
       answer: "b"
     },
     {
