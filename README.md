@@ -3,6 +3,8 @@
 Animal Quiz is a web-based application designed to test the user's knowledge of different animal species. The quiz consists of 15 questions with three answer choices each. The application is built using HTML, CSS and JavaScript. The game is responsive and can be played on any device.
 
 ![responsinvessimage](/assets/images/responsinquiz.png)
+## Wireframe
+![collection](/assets/images/collection.png)
 
 ## Features
 
