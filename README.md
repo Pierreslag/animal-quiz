@@ -47,7 +47,7 @@ No errors were found in HTML, CSS or JS.
 - Brave
 
 **LightHouse test**: <br>
-![lighthouse](/assets/images/lighthouse2.png)
+![lighthouse](/assets/images/finallighthouse.png)
 
 ## Deployment
 
