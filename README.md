@@ -43,7 +43,7 @@ Ive used the official validators:
 No errors were found in HTML, CSS or JS.
 
 **LightHouse test**: <br>
-![lighthouse](/assets/images/lighthouseanimal.png)
+![lighthouse](/assets/images/lighthouse2.png)
 
 ## Deployment
 
