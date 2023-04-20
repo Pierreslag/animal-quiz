@@ -66,3 +66,5 @@ The Animal Quiz website deployed via [GitHub Pages](https://pages.github.com/).
 - [BlueWillow](https://www.bluewillow.ai/) - External resource used for making images.
 - [GitHub](https://github.com/) - External platform used for code hosting and deployment.
 ### Acknowledgements
+
+- Thank you, [Code Institute](https://codeinstitute.net), for your excellent curriculum, guidance, and support in my journey as a developer.
